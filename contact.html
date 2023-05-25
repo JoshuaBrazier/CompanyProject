@@ -25,54 +25,39 @@
     </nav>
     <!-- ///////////////////////////////////////////////////// -->
     <main id="page-one">
-        <div class='title-and-images-flexbox' id="title-and-images-flexbox-one">
-            <div class="image-title-text">
-                <span class='images-title' id="images-title-one">The cutting edge. No compromises.</span>
-                <p class="images-text" id="images-text-one">Our products have been proven to be the most reliable, effect tool to get the job done. <span style='text-decoration: underline; font-weight: bold;'>Period</span>.</p>
-                <p class="images-text" id="images-text-one">All of our products are provided with <span style='text-decoration: underline; font-weight: bold;'>lifetime warranty</span> for peace of mind.</p>
-            </div>
-            <div class="image-container" id="image-container-one">
-                <div class="image-container-row-one">
-                    <div class="image-box">
-                        <img src="images/image1.jpeg">
+        <div id="main-container">
+            <div id="contact-main-container">
+                <div id="contact-paragraphs">
+                    <p id="contact-title">
+                        TITLE
+                    </p>
+                    <div id="contact-informtion-1">
+                        <p>P1</p>
+                        <img src="images/ContactUs1.jpeg" alt="">
                     </div>
-                    <div class="image-box">
-                        <img src="images/image2.jpeg">
+                    <div>
+                        <p>P2</p>
+                        <img src="images/ContactUs2.jpeg" alt="">
                     </div>
-                </div>
-                <div class="image-container-row-two">
-                    <div class="image-box">
-                        <img src="images/image3.jpeg">
-                    </div>
-                    <div class="image-box">
-                        <img src="images/image4.png">
-                    </div>
-                </div>    
-            </div>
-        </div>
-        <div class='title-and-images-flexbox' id="title-and-images-flexbox-one">
-            <div class="image-title-text">
-                <span class='images-title' id="images-title-one">The cutting edge. No compromises.</span>
-                <p class="images-text" id="images-text-one">Our products have been proven to be the most reliable, effect tool to get the job done. <span style='text-decoration: underline; font-weight: bold;'>Period</span>.</p>
-                <p class="images-text" id="images-text-one">All of our products are provided with <span style='text-decoration: underline; font-weight: bold;'>lifetime warranty</span> for peace of mind.</p>
-            </div>
-            <div class="image-container" id="image-container-one">
-                <div class="image-container-row-one">
-                    <div class="image-box">
-                        <img src="images/image1.jpeg">
-                    </div>
-                    <div class="image-box">
-                        <img src="images/image2.jpeg">
+                    <div id="contact-information-3">
+                        <p>P3</p>
+                        <img src="images/ContactUs3.jpeg" alt="">
                     </div>
                 </div>
-                <div class="image-container-row-two">
-                    <div class="image-box">
-                        <img src="images/image3.jpeg">
-                    </div>
-                    <div class="image-box">
-                        <img src="images/image4.png">
-                    </div>
-                </div>    
+                <div id="contact-form-flexbox">
+                    <form action="https://formspree.io/f/moqzzwwr" method="POST" id="contact-form">
+                        <p class="contact-text-title">Input your contact information and message here:</p>
+                        <label for="Name">First Name</label>
+                        <input type="text" class="contact-input" placeholder="John Smith" name="Name" required>
+                        <label for="E-mail-Address">E-mail Address</label>
+                        <input type="text" class="contact-input" placeholder="john.smith@hotmail.com" name="E-mail-Address" required>
+                        <label for="Telephone-Number">Telephone Number</label>
+                        <input type="text" class="contact-input" placeholder="01234 567 890" name="Telephone-Number" required>
+                        <label for="Message">Message</label>
+                        <textarea type="text" class="contact-input" placeholder="Please enter your messsage here!" name="Message" required></textarea>
+                        <button class="submit-email-button">Submit Query</button>
+                    </form>
+                </div>
             </div>
         </div>
     </main>
